@@ -1159,6 +1159,233 @@ prebuilt_paths = {
             }
         ]
     }
+],
+    "Smart Banking": [
+    {
+        "step": 1,
+        "title": "Banking Basics",
+        "description": "Understand the types of bank accounts and how they work.",
+        "chapters": [
+            {"chapter": 1, "title": "Checking vs Savings"},
+            {"chapter": 2, "title": "Opening an Account"}
+        ],
+        "resources": [
+            {"type": "video", "title": "Bank Accounts Explained", "link": "https://www.youtube.com/watch?v=4v0jMnzIezQ"},
+            {"type": "article", "title": "Checking vs. Savings Accounts", "link": "https://www.investopedia.com/articles/banking/09/checking-savings-accounts.asp"}
+        ],
+        "quizzes": [
+            {
+                "chapter": 1,
+                "questions": [
+                    {
+                        "question": "A checking account is best used for...",
+                        "options": ["Long-term savings", "Daily transactions", "Buying investments", "Paying taxes"],
+                        "correctAnswer": 1
+                    },
+                    {
+                        "question": "A savings account is mainly for...",
+                        "options": ["Everyday spending", "Storing money safely and earning interest", "Paying loans", "Shopping sprees"],
+                        "correctAnswer": 1
+                    },
+                    {
+                        "question": "Opening a bank account usually requires...",
+                        "options": ["Only a phone number", "ID and a minimum deposit", "Owning a business", "A perfect credit score"],
+                        "correctAnswer": 1
+                    },
+                    {
+                        "question": "Which is usually true about savings accounts?",
+                        "options": ["They have lower interest than checking accounts", "They offer no interest", "They help build your credit score", "They typically earn more interest than checking accounts"],
+                        "correctAnswer": 3
+                    },
+                    {
+                        "question": "A major benefit of banking is...",
+                        "options": ["Losing money", "Keeping cash under your mattress", "Safety and convenience for your money", "Spending without records"],
+                        "correctAnswer": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "step": 2,
+        "title": "Online Banking",
+        "description": "Benefits and safety of online and mobile banking.",
+        "chapters": [
+            {"chapter": 1, "title": "Mobile Banking Apps"},
+            {"chapter": 2, "title": "Online Safety"}
+        ],
+        "resources": [
+            {"type": "article", "title": "Is Online Banking Safe?", "link": "https://www.nerdwallet.com/article/banking/online-banking-safety"},
+            {"type": "video", "title": "Online Banking Explained", "link": "https://www.youtube.com/watch?v=YaQ0dwi7A-0"}
+        ],
+        "quizzes": [
+            {
+                "chapter": 2,
+                "questions": [
+                    {
+                        "question": "Online banking lets you...",
+                        "options": ["Travel for free", "Access your bank accounts digitally", "Avoid paying bills", "Buy houses instantly"],
+                        "correctAnswer": 1
+                    },
+                    {
+                        "question": "Mobile banking apps allow users to...",
+                        "options": ["Only deposit checks", "Manage accounts, pay bills, transfer funds", "Play games", "Order food"],
+                        "correctAnswer": 1
+                    },
+                    {
+                        "question": "A key safety tip for online banking is...",
+                        "options": ["Use public Wi-Fi", "Share your password", "Use two-factor authentication", "Leave accounts logged in"],
+                        "correctAnswer": 2
+                    },
+                    {
+                        "question": "A risk of online banking is...",
+                        "options": ["Immediate rewards", "Identity theft if not secured", "Better budgeting", "More interest earned"],
+                        "correctAnswer": 1
+                    },
+                    {
+                        "question": "A common feature of mobile banking is...",
+                        "options": ["Live shopping", "Direct deposit setup", "Gambling apps", "Movie streaming"],
+                        "correctAnswer": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "step": 3,
+        "title": "Managing Your Money",
+        "description": "Tips for managing accounts effectively.",
+        "chapters": [
+            {"chapter": 1, "title": "Reading Bank Statements"},
+            {"chapter": 2, "title": "Avoiding Overdrafts"}
+        ],
+        "resources": [
+            {"type": "video", "title": "How to Manage Your Bank Account", "link": "https://www.youtube.com/watch?v=k8Yy33Xprc8"},
+            {"type": "article", "title": "How to Avoid Bank Fees", "link": "https://www.investopedia.com/articles/banking/08/avoiding-bank-fees.asp"}
+        ],
+        "quizzes": [
+            {
+                "chapter": 3,
+                "questions": [
+                    {
+                        "question": "A bank statement shows...",
+                        "options": ["School grades", "Your account activity", "Health records", "Phone usage"],
+                        "correctAnswer": 1
+                    },
+                    {
+                        "question": "Overdraft happens when you...",
+                        "options": ["Deposit too much money", "Withdraw more money than you have", "Save too much", "Earn a bonus"],
+                        "correctAnswer": 1
+                    },
+                    {
+                        "question": "To avoid overdraft fees, you can...",
+                        "options": ["Turn off overdraft protection", "Ignore your account balance", "Spend without checking", "Always use credit cards"],
+                        "correctAnswer": 0
+                    },
+                    {
+                        "question": "Reviewing your transactions helps...",
+                        "options": ["Overspend easily", "Spot unauthorized charges", "Earn extra money", "Get more loans"],
+                        "correctAnswer": 1
+                    },
+                    {
+                        "question": "Setting account alerts can help you...",
+                        "options": ["Shop faster", "Track balance changes", "Spend more", "Watch videos"],
+                        "correctAnswer": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "step": 4,
+        "title": "Understanding Credit Cards",
+        "description": "How to use credit cards responsibly.",
+        "chapters": [
+            {"chapter": 1, "title": "Credit Card Terms"},
+            {"chapter": 2, "title": "Interest Rates and Rewards"}
+        ],
+        "resources": [
+            {"type": "video", "title": "Credit Cards for Beginners", "link": "https://www.youtube.com/watch?v=U1xRtyuDdi8"},
+            {"type": "article", "title": "Credit Cards Explained", "link": "https://www.nerdwallet.com/article/credit-cards/credit-card-basics"}
+        ],
+        "quizzes": [
+            {
+                "chapter": 4,
+                "questions": [
+                    {
+                        "question": "A credit card allows you to...",
+                        "options": ["Spend money you already have", "Borrow money up to a limit", "Save for retirement", "Avoid debt forever"],
+                        "correctAnswer": 1
+                    },
+                    {
+                        "question": "Interest on credit cards is charged when...",
+                        "options": ["You pay the full balance", "You carry a balance month to month", "You pay early", "You avoid purchases"],
+                        "correctAnswer": 1
+                    },
+                    {
+                        "question": "APR on a credit card stands for...",
+                        "options": ["Annual Percentage Rate", "Automated Payment Rate", "Actual Price Rate", "Average Payment Requirement"],
+                        "correctAnswer": 0
+                    },
+                    {
+                        "question": "Rewards programs usually offer...",
+                        "options": ["Free credit", "Points, cashback, or travel perks", "Increased debt", "Higher APR"],
+                        "correctAnswer": 1
+                    },
+                    {
+                        "question": "Paying only the minimum amount due each month can lead to...",
+                        "options": ["Full debt payoff", "Faster debt accumulation with interest", "Higher credit score", "No credit history"],
+                        "correctAnswer": 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "step": 5,
+        "title": "Protecting Yourself from Fraud",
+        "description": "How to protect your banking information.",
+        "chapters": [
+            {"chapter": 1, "title": "Recognizing Scams"},
+            {"chapter": 2, "title": "Using Two-Factor Authentication"}
+        ],
+        "resources": [
+            {"type": "article", "title": "Preventing Bank Fraud", "link": "https://www.consumer.ftc.gov/articles/how-avoid-fraud"},
+            {"type": "video", "title": "Fraud Prevention Tips", "link": "https://www.youtube.com/watch?v=Qz5CK_Fl_Fw"}
+        ],
+        "quizzes": [
+            {
+                "chapter": 5,
+                "questions": [
+                    {
+                        "question": "Phishing scams often happen through...",
+                        "options": ["Phone calls and fake emails", "Grocery stores", "Regular mail only", "ATM machines"],
+                        "correctAnswer": 0
+                    },
+                    {
+                        "question": "Two-factor authentication helps protect your...",
+                        "options": ["Social media likes", "Bank account access", "Music playlists", "Streaming apps"],
+                        "correctAnswer": 1
+                    },
+                    {
+                        "question": "A red flag for a scam is...",
+                        "options": ["Familiar business names", "Asking for personal info urgently", "Regular bank alerts", "Normal receipts"],
+                        "correctAnswer": 1
+                    },
+                    {
+                        "question": "If you notice suspicious activity, you should...",
+                        "options": ["Ignore it", "Immediately report to your bank", "Close all your accounts", "Keep spending"],
+                        "correctAnswer": 1
+                    },
+                    {
+                        "question": "To protect yourself online, you should...",
+                        "options": ["Use weak passwords", "Click random links", "Use secure websites (HTTPS)", "Post your bank info publicly"],
+                        "correctAnswer": 2
+                    }
+                ]
+            }
+        ]
+    }
 ]
 }
 
